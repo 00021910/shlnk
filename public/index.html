@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>SHLNK</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>SHLNK</h1>
+    <label for="url">Input URL:</label>
+    <input type="text" id="url" name="url">
+    <label for="slug">Input slug:</label>
+    <input type="text" id="slug" name="slug">
+    <button id="submit">Submit</button><br/><br/>
+    <pre id="result"></pre><br/>
+    <p id="tips">Server's response for your sumbission will be displayed here.</p>
+    <script async defer src="./app.js"></script>
+</body>
+</html>
